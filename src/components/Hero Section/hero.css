@@ -1,0 +1,25 @@
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 4rem 8%;
+  gap: 4rem;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+}
+
+.hero-content p {
+  margin: 2rem 0;
+  color: gray;
+}
+
+.hero-content button {
+  background: hsl(180, 66%, 49%);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  color: white;
+  font-weight: bold;
+}

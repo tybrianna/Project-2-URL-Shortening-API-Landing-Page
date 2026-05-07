@@ -1,36 +1,22 @@
-import { ItemLink, List, NavigationWrapper } from "./navigation.styles";
-function Navigation({ clicked, handleClick }) {
-  return (
-    <NavigationWrapper clicked={clicked}>
-      <List>
-        <li>
-          <ItemLink className="h3" onClick={handleClick}>
-            Features
-          </ItemLink>
-        </li>
-        <li>
-          <ItemLink className="h3" onClick={handleClick}>
-            Pricing
-          </ItemLink>
-        </li>
-        <li>
-          <ItemLink className="h3" onClick={handleClick}>
-            Resources
-          </ItemLink>
-        </li>
-        <li>
-          <ItemLink className="h3" onClick={handleClick}>
-            Login
-          </ItemLink>
-        </li>
-        <li>
-          <ItemLink className="h3" onClick={handleClick}>
-            Sign Up
-          </ItemLink>
-        </li>
-      </List>
-    </NavigationWrapper>
-  );
-}
+import "./Navbar.css";
 
-export default Navigation;
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <div className="logo">Shortly</div>
+
+      <ul className="nav-links">
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Resources</li>
+      </ul>
+
+      <div className="nav-auth">
+        <button className="login-btn">Login</button>
+        <button className="signup-btn">Sign Up</button>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

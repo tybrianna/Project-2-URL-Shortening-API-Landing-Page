@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Navigation } from "../index";
-import { MenuLabel, NavBackground, Icon } from "./hamburger-menu.styles";
 function HamburgerMenu() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);

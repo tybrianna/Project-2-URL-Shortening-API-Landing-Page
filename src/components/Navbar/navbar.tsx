@@ -5,27 +5,27 @@ function Navigation({ clicked, handleClick }) {
       <List>
         <li>
           <ItemLink className="h3" onClick={handleClick}>
-            Home
+            Features
           </ItemLink>
         </li>
         <li>
           <ItemLink className="h3" onClick={handleClick}>
-            About
+            Pricing
           </ItemLink>
         </li>
         <li>
           <ItemLink className="h3" onClick={handleClick}>
-            Portfolio
+            Resources
           </ItemLink>
         </li>
         <li>
           <ItemLink className="h3" onClick={handleClick}>
-            Blog
+            Login
           </ItemLink>
         </li>
         <li>
           <ItemLink className="h3" onClick={handleClick}>
-            Contact Us
+            Sign Up
           </ItemLink>
         </li>
       </List>

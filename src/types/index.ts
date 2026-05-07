@@ -3,3 +3,8 @@ export interface ShortenedLink {
   long_url: string;
   link: string;
 }
+
+// export interface NavigationProps {
+//   clicked: boolean;
+//   handleClick: () => void;
+// }

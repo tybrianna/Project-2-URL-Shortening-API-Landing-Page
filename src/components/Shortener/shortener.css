@@ -1,0 +1,45 @@
+.shortener-section {
+  padding: 4rem 8%;
+  background: #f0f1f6;
+}
+
+.shortener-box {
+  background: hsl(257, 27%, 26%);
+  padding: 2rem;
+  border-radius: 10px;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.shortener-box input {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.shortener-box button {
+  background: hsl(180, 66%, 49%);
+  border: none;
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 8px;
+}
+
+.link-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.short-link {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

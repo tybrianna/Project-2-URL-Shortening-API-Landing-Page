@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8%;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-auth {
+  display: flex;
+  gap: 1rem;
+}
+
+.signup-btn {
+  background: hsl(180, 66%, 49%);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 999px;
+}

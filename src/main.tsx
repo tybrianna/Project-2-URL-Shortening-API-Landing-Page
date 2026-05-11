@@ -1,6 +1,16 @@
-import { render } from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 import App from "./App";
 
 const rootElement = document.getElementById("root");
-render(<App />, rootElement);
+
+if (rootElement) {
+  ReactDOM.createRoot(rootElement).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+}
+
+export default App;

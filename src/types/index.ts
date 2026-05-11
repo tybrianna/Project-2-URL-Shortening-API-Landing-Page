@@ -4,7 +4,3 @@ export interface ShortenedLink {
   link: string;
 }
 
-// export interface NavigationProps {
-//   clicked: boolean;
-//   handleClick: () => void;
-// }

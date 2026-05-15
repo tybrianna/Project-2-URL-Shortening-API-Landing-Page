@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { shortenUrl } from "../API/api";
+import { shortenUrl } from "../../services/api";
 import type { ShortenedLink } from "../../types";
 import "./Shortener.css";
 

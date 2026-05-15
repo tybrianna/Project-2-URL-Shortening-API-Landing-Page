@@ -1,4 +1,4 @@
-import type { ShortenedLink } from "../../types";
+import type { ShortenedLink } from "../types";
 
 const TOKEN = import.meta.env.VITE_BITLY_TOKEN;
 
